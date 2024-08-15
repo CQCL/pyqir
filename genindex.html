@@ -1,407 +1,1080 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="#" /><link rel="search" title="Search" href="search.html" />
 
-<!DOCTYPE html>
+    <!-- Generated with Sphinx 7.1.2 and Furo 2024.08.06 --><title>Index - PyQIR documentation</title>
+<link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=354aac6f" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=302659d7" />
+    
+    
 
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index &#8212; PyQIR  documentation</title>
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
-    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/doctools.js"></script>
-    <link rel="index" title="Index" href="#" />
-    <link rel="search" title="Search" href="search.html" />
-   
-  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">PyQIR  documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
   
   
-  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
-
-  </head><body>
+  <span class="sidebar-brand-text">PyQIR  documentation</span>
   
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="upgrade.html">Upgrading PyQIR</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="api/index.html">API Reference</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of API Reference</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/pyqir.html"><code class="docutils literal notranslate"><span class="pre">pyqir</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="building.html">Building from Source</a></li>
+</ul>
 
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
-          
-
-          <div class="body" role="main">
-            
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- <a href="#A"><strong>A</strong></a>
- | <a href="#B"><strong>B</strong></a>
- | <a href="#C"><strong>C</strong></a>
- | <a href="#D"><strong>D</strong></a>
- | <a href="#E"><strong>E</strong></a>
- | <a href="#F"><strong>F</strong></a>
- | <a href="#G"><strong>G</strong></a>
- | <a href="#H"><strong>H</strong></a>
- | <a href="#M"><strong>M</strong></a>
- | <a href="#N"><strong>N</strong></a>
- | <a href="#P"><strong>P</strong></a>
- | <a href="#Q"><strong>Q</strong></a>
- | <a href="#R"><strong>R</strong></a>
- | <a href="#S"><strong>S</strong></a>
- | <a href="#T"><strong>T</strong></a>
- | <a href="#X"><strong>X</strong></a>
- | <a href="#Y"><strong>Y</strong></a>
- | <a href="#Z"><strong>Z</strong></a>
- 
 </div>
-<h2 id="A">A</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.add_classical_register">add_classical_register() (pyqir_generator.QirBuilder method)</a>
-</li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.add_quantum_register">add_quantum_register() (pyqir_generator.QirBuilder method)</a>
-</li>
-  </ul></td>
-</tr></table>
+</div>
 
-<h2 id="B">B</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.build">build() (pyqir_generator.QirBuilder method)</a>
-</li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.build_with">build_with() (pyqir_generator.QirBuilder method)</a>
-</li>
-  </ul></td>
-</tr></table>
-
-<h2 id="C">C</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.cx">cx() (pyqir_generator.QirBuilder method)</a>
-
-      <ul>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateLogger.cx">(pyqir_jit.GateLogger method)</a>
-</li>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateSet.cx">(pyqir_jit.GateSet method)</a>
-</li>
-      </ul></li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.cz">cz() (pyqir_generator.QirBuilder method)</a>
-
-      <ul>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateLogger.cz">(pyqir_jit.GateLogger method)</a>
-</li>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateSet.cz">(pyqir_jit.GateSet method)</a>
-</li>
-      </ul></li>
-  </ul></td>
-</tr></table>
-
-<h2 id="D">D</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.dump_machine">dump_machine() (pyqir_generator.QirBuilder method)</a>
-
-      <ul>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateLogger.dump_machine">(pyqir_jit.GateLogger method)</a>
-</li>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateSet.dump_machine">(pyqir_jit.GateSet method)</a>
-</li>
-      </ul></li>
-  </ul></td>
-</tr></table>
-
-<h2 id="E">E</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.enable_logging">enable_logging() (pyqir_generator.QirBuilder method)</a>
-</li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/jit.html#pyqir_jit.NonadaptiveJit.eval">eval() (pyqir_jit.NonadaptiveJit method)</a>
-</li>
-  </ul></td>
-</tr></table>
-
-<h2 id="F">F</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/jit.html#pyqir_jit.GateLogger.finish">finish() (pyqir_jit.GateLogger method)</a>
-
-      <ul>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateSet.finish">(pyqir_jit.GateSet method)</a>
-</li>
-      </ul></li>
-  </ul></td>
-</tr></table>
-
-<h2 id="G">G</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/jit.html#pyqir_jit.GateLogger">GateLogger (class in pyqir_jit)</a>
-</li>
-      <li><a href="api-reference/jit.html#pyqir_jit.GateSet">GateSet (class in pyqir_jit)</a>
-</li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.get_bitcode_base64_string">get_bitcode_base64_string() (pyqir_generator.QirBuilder method)</a>
-</li>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.get_ir_string">get_ir_string() (pyqir_generator.QirBuilder method)</a>
-</li>
-  </ul></td>
-</tr></table>
-
-<h2 id="H">H</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.h">h() (pyqir_generator.QirBuilder method)</a>
-
-      <ul>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateLogger.h">(pyqir_jit.GateLogger method)</a>
-</li>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateSet.h">(pyqir_jit.GateSet method)</a>
-</li>
-      </ul></li>
-  </ul></td>
-</tr></table>
-
-<h2 id="M">M</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.m">m() (pyqir_generator.QirBuilder method)</a>
-
-      <ul>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateLogger.m">(pyqir_jit.GateLogger method)</a>
-</li>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateSet.m">(pyqir_jit.GateSet method)</a>
-</li>
-      </ul></li>
-  </ul></td>
-</tr></table>
-
-<h2 id="N">N</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/jit.html#pyqir_jit.NonadaptiveJit">NonadaptiveJit (class in pyqir_jit)</a>
-</li>
-  </ul></td>
-</tr></table>
-
-<h2 id="P">P</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/jit.html#pyqir_jit.GateLogger.print">print() (pyqir_jit.GateLogger method)</a>
-</li>
-  </ul></td>
-</tr></table>
-
-<h2 id="Q">Q</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder">QirBuilder (class in pyqir_generator)</a>
-</li>
-  </ul></td>
-</tr></table>
-
-<h2 id="R">R</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.reset">reset() (pyqir_generator.QirBuilder method)</a>
-
-      <ul>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateLogger.reset">(pyqir_jit.GateLogger method)</a>
-</li>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateSet.reset">(pyqir_jit.GateSet method)</a>
-</li>
-      </ul></li>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.rx">rx() (pyqir_generator.QirBuilder method)</a>
-
-      <ul>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateLogger.rx">(pyqir_jit.GateLogger method)</a>
-</li>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateSet.rx">(pyqir_jit.GateSet method)</a>
-</li>
-      </ul></li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.ry">ry() (pyqir_generator.QirBuilder method)</a>
-
-      <ul>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateLogger.ry">(pyqir_jit.GateLogger method)</a>
-</li>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateSet.ry">(pyqir_jit.GateSet method)</a>
-</li>
-      </ul></li>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.rz">rz() (pyqir_generator.QirBuilder method)</a>
-
-      <ul>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateLogger.rz">(pyqir_jit.GateLogger method)</a>
-</li>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateSet.rz">(pyqir_jit.GateSet method)</a>
-</li>
-      </ul></li>
-  </ul></td>
-</tr></table>
-
-<h2 id="S">S</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.s">s() (pyqir_generator.QirBuilder method)</a>
-
-      <ul>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateLogger.s">(pyqir_jit.GateLogger method)</a>
-</li>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateSet.s">(pyqir_jit.GateSet method)</a>
-</li>
-      </ul></li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.s_adj">s_adj() (pyqir_generator.QirBuilder method)</a>
-
-      <ul>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateLogger.s_adj">(pyqir_jit.GateLogger method)</a>
-</li>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateSet.s_adj">(pyqir_jit.GateSet method)</a>
-</li>
-      </ul></li>
-  </ul></td>
-</tr></table>
-
-<h2 id="T">T</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.t">t() (pyqir_generator.QirBuilder method)</a>
-
-      <ul>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateLogger.t">(pyqir_jit.GateLogger method)</a>
-</li>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateSet.t">(pyqir_jit.GateSet method)</a>
-</li>
-      </ul></li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.t_adj">t_adj() (pyqir_generator.QirBuilder method)</a>
-
-      <ul>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateLogger.t_adj">(pyqir_jit.GateLogger method)</a>
-</li>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateSet.t_adj">(pyqir_jit.GateSet method)</a>
-</li>
-      </ul></li>
-  </ul></td>
-</tr></table>
-
-<h2 id="X">X</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.x">x() (pyqir_generator.QirBuilder method)</a>
-
-      <ul>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateLogger.x">(pyqir_jit.GateLogger method)</a>
-</li>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateSet.x">(pyqir_jit.GateSet method)</a>
-</li>
-      </ul></li>
-  </ul></td>
-</tr></table>
-
-<h2 id="Y">Y</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.y">y() (pyqir_generator.QirBuilder method)</a>
-
-      <ul>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateLogger.y">(pyqir_jit.GateLogger method)</a>
-</li>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateSet.y">(pyqir_jit.GateSet method)</a>
-</li>
-      </ul></li>
-  </ul></td>
-</tr></table>
-
-<h2 id="Z">Z</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api-reference/generator.html#pyqir_generator.QirBuilder.z">z() (pyqir_generator.QirBuilder method)</a>
-
-      <ul>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateLogger.z">(pyqir_jit.GateLogger method)</a>
-</li>
-        <li><a href="api-reference/jit.html#pyqir_jit.GateSet.z">(pyqir_jit.GateSet method)</a>
-</li>
-      </ul></li>
-  </ul></td>
-</tr></table>
-
-
-
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
           </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          
+<section class="genindex-section">
+  <h1 id="index">Index</h1>
+  <div class="genindex-jumpbox"><a href="#A"><strong>A</strong></a> | <a href="#B"><strong>B</strong></a> | <a href="#C"><strong>C</strong></a> | <a href="#D"><strong>D</strong></a> | <a href="#E"><strong>E</strong></a> | <a href="#F"><strong>F</strong></a> | <a href="#G"><strong>G</strong></a> | <a href="#H"><strong>H</strong></a> | <a href="#I"><strong>I</strong></a> | <a href="#L"><strong>L</strong></a> | <a href="#M"><strong>M</strong></a> | <a href="#N"><strong>N</strong></a> | <a href="#O"><strong>O</strong></a> | <a href="#P"><strong>P</strong></a> | <a href="#Q"><strong>Q</strong></a> | <a href="#R"><strong>R</strong></a> | <a href="#S"><strong>S</strong></a> | <a href="#T"><strong>T</strong></a> | <a href="#U"><strong>U</strong></a> | <a href="#V"><strong>V</strong></a> | <a href="#W"><strong>W</strong></a> | <a href="#X"><strong>X</strong></a> | <a href="#Y"><strong>Y</strong></a> | <a href="#Z"><strong>Z</strong></a></div>
+</section>
+<section id="A" class="genindex-section">
+  <h2>A</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Opcode.ADD">ADD (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Builder.add">add() (pyqir.Builder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.SimpleModule.add_byte_string">add_byte_string() (pyqir.SimpleModule method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.SimpleModule.add_external_function">add_external_function() (pyqir.SimpleModule method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Module.add_flag">add_flag() (pyqir.Module method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Phi.add_incoming">add_incoming() (pyqir.Phi method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.add_string_attribute">add_string_attribute() (in module pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.ADDR_SPACE_CAST">ADDR_SPACE_CAST (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.PointerType.address_space">address_space (pyqir.PointerType attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.ALLOCA">ALLOCA (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.AND">AND (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Builder.and_">and_() (pyqir.Builder method)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.ModuleFlagBehavior.APPEND">APPEND (pyqir.ModuleFlagBehavior attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.ModuleFlagBehavior.APPEND_UNIQUE">APPEND_UNIQUE (pyqir.ModuleFlagBehavior attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Linkage.APPENDING">APPENDING (pyqir.Linkage attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Call.args">args (pyqir.Call attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.ArrayType">ArrayType (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.ASHR">ASHR (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.ATOMIC_CMP_XCHG">ATOMIC_CMP_XCHG (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.ATOMIC_RMW">ATOMIC_RMW (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Attribute">Attribute (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.AttributeList">AttributeList (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Function.attributes">attributes (pyqir.Function attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.AttributeSet">AttributeSet (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Linkage.AVAILABLE_EXTERNALLY">AVAILABLE_EXTERNALLY (pyqir.Linkage attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="B" class="genindex-section">
+  <h2>B</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Function.basic_blocks">basic_blocks (pyqir.Function attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.BasicBlock">BasicBlock (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.BasicQisBuilder">BasicQisBuilder (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.BIT_CAST">BIT_CAST (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Module.bitcode">bitcode (pyqir.Module attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.SimpleModule.bitcode">bitcode() (pyqir.SimpleModule method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.BR">BR (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Builder.br">br() (pyqir.Builder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Builder">Builder (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.SimpleModule.builder">builder (pyqir.SimpleModule property)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="C" class="genindex-section">
+  <h2>C</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Call">Call (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.CALL">CALL (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Builder.call">call() (pyqir.Builder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.CALL_BR">CALL_BR (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Call.callee">callee (pyqir.Call attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Switch.cases">cases (pyqir.Switch attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.CATCH_PAD">CATCH_PAD (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.CATCH_RET">CATCH_RET (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.CATCH_SWITCH">CATCH_SWITCH (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.CLEANUP_PAD">CLEANUP_PAD (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.CLEANUP_RET">CLEANUP_RET (pyqir.Opcode attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Linkage.COMMON">COMMON (pyqir.Linkage attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Switch.cond">cond (pyqir.Switch attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Builder.condbr">condbr() (pyqir.Builder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.const">const() (in module pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Constant">Constant (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.ConstantAsMetadata">ConstantAsMetadata (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Context">Context (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Module.context">context (pyqir.Module attribute)</a>
+
+        <ul>
+          <li><a href="api/pyqir.html#pyqir.SimpleModule.context">(pyqir.SimpleModule property)</a>
+</li>
+        </ul></li>
+        <li><a href="api/pyqir.html#pyqir.ArrayType.count">count (pyqir.ArrayType attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.BasicQisBuilder.cx">cx() (pyqir.BasicQisBuilder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.BasicQisBuilder.cz">cz() (pyqir.BasicQisBuilder method)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="D" class="genindex-section">
+  <h2>D</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Switch.default">default (pyqir.Switch attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Type.double">double() (pyqir.Type static method)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.dynamic_qubit_management">dynamic_qubit_management() (in module pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.dynamic_result_management">dynamic_result_management() (in module pyqir)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="E" class="genindex-section">
+  <h2>E</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.ArrayType.element">element (pyqir.ArrayType attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.SimpleModule.entry_block">entry_block (pyqir.SimpleModule property)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.SimpleModule.entry_point">entry_point (pyqir.SimpleModule property)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.entry_point">entry_point() (in module pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.IntPredicate.EQ">EQ (pyqir.IntPredicate attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Instruction.erase">erase() (pyqir.Instruction method)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.ModuleFlagBehavior.ERROR">ERROR (pyqir.ModuleFlagBehavior attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Linkage.EXTERNAL">EXTERNAL (pyqir.Linkage attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Linkage.EXTERNAL_WEAK">EXTERNAL_WEAK (pyqir.Linkage attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.extract_byte_string">extract_byte_string() (in module pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.EXTRACT_ELEMENT">EXTRACT_ELEMENT (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.EXTRACT_VALUE">EXTRACT_VALUE (pyqir.Opcode attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="F" class="genindex-section">
+  <h2>F</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Opcode.FADD">FADD (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.FloatPredicate.FALSE">FALSE (pyqir.FloatPredicate attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.FCmp">FCmp (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.FCMP">FCMP (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.FDIV">FDIV (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.FENCE">FENCE (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.StructType.fields">fields (pyqir.StructType attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.FloatConstant">FloatConstant (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.FloatPredicate">FloatPredicate (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.FMUL">FMUL (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.FNEG">FNEG (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.FP_EXT">FP_EXT (pyqir.Opcode attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Opcode.FP_TO_SI">FP_TO_SI (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.FP_TO_UI">FP_TO_UI (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.FP_TRUNC">FP_TRUNC (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.FREEZE">FREEZE (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.FREM">FREM (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Module.from_bitcode">from_bitcode() (pyqir.Module static method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Module.from_ir">from_ir() (pyqir.Module static method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.FSUB">FSUB (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.AttributeList.func">func (pyqir.AttributeList attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Function">Function (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Module.functions">functions (pyqir.Module attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.FunctionType">FunctionType (class in pyqir)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="G" class="genindex-section">
+  <h2>G</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Opcode.GET_ELEMENT_PTR">GET_ELEMENT_PTR (pyqir.Opcode attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Module.get_flag">get_flag() (pyqir.Module method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.global_byte_string">global_byte_string() (in module pyqir)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="H" class="genindex-section">
+  <h2>H</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.BasicQisBuilder.h">h() (pyqir.BasicQisBuilder method)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="I" class="genindex-section">
+  <h2>I</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.ICmp">ICmp (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.ICMP">ICMP (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Builder.icmp">icmp() (pyqir.Builder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Builder.if_">if_() (pyqir.Builder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.BasicQisBuilder.if_result">if_result() (pyqir.BasicQisBuilder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Phi.incoming">incoming (pyqir.Phi attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.INDIRECT_BR">INDIRECT_BR (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Builder.insert_at_end">insert_at_end() (pyqir.Builder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.INSERT_ELEMENT">INSERT_ELEMENT (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.INSERT_VALUE">INSERT_VALUE (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Instruction">Instruction (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.BasicBlock.instructions">instructions (pyqir.BasicBlock attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.INT_TO_PTR">INT_TO_PTR (pyqir.Opcode attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.IntConstant">IntConstant (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Linkage.INTERNAL">INTERNAL (pyqir.Linkage attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.IntPredicate">IntPredicate (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.IntType">IntType (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.INVOKE">INVOKE (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.SimpleModule.ir">ir() (pyqir.SimpleModule method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Type.is_double">is_double (pyqir.Type attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.is_entry_point">is_entry_point() (in module pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.is_interop_friendly">is_interop_friendly() (in module pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Constant.is_null">is_null (pyqir.Constant attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.is_qubit_type">is_qubit_type() (in module pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.is_result_type">is_result_type() (in module pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Type.is_void">is_void (pyqir.Type attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="L" class="genindex-section">
+  <h2>L</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Opcode.LANDING_PAD">LANDING_PAD (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Linkage.LINK_ONCE_ANY">LINK_ONCE_ANY (pyqir.Linkage attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Linkage.LINK_ONCE_ODR">LINK_ONCE_ODR (pyqir.Linkage attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Linkage">Linkage (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.LOAD">LOAD (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.LSHR">LSHR (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Builder.lshr">lshr() (pyqir.Builder method)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="M" class="genindex-section">
+  <h2>M</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.ModuleFlagBehavior.MAX">MAX (pyqir.ModuleFlagBehavior attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Metadata">Metadata (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.MetadataString">MetadataString (class in pyqir)</a>
+</li>
+        <li>
+    module
+
+        <ul>
+          <li><a href="api/pyqir.html#module-pyqir">pyqir</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Module">Module (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.ModuleFlagBehavior">ModuleFlagBehavior (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.MUL">MUL (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Builder.mul">mul() (pyqir.Builder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.BasicQisBuilder.mz">mz() (pyqir.BasicQisBuilder method)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="N" class="genindex-section">
+  <h2>N</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.StructType.name">name (pyqir.StructType attribute)</a>
+
+        <ul>
+          <li><a href="api/pyqir.html#pyqir.Value.name">(pyqir.Value attribute)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.IntPredicate.NE">NE (pyqir.IntPredicate attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Constant.null">null() (pyqir.Constant static method)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="O" class="genindex-section">
+  <h2>O</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.FloatPredicate.OEQ">OEQ (pyqir.FloatPredicate attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.FloatPredicate.OGE">OGE (pyqir.FloatPredicate attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.FloatPredicate.OGT">OGT (pyqir.FloatPredicate attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.FloatPredicate.OLE">OLE (pyqir.FloatPredicate attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.FloatPredicate.OLT">OLT (pyqir.FloatPredicate attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.FloatPredicate.ONE">ONE (pyqir.FloatPredicate attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Opcode">Opcode (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Instruction.opcode">opcode (pyqir.Instruction attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Instruction.operands">operands (pyqir.Instruction attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.OR">OR (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Builder.or_">or_() (pyqir.Builder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.FloatPredicate.ORD">ORD (pyqir.FloatPredicate attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.ModuleFlagBehavior.OVERRIDE">OVERRIDE (pyqir.ModuleFlagBehavior attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="P" class="genindex-section">
+  <h2>P</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.AttributeList.param">param() (pyqir.AttributeList method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Function.params">params (pyqir.Function attribute)</a>
+
+        <ul>
+          <li><a href="api/pyqir.html#pyqir.FunctionType.params">(pyqir.FunctionType attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/pyqir.html#pyqir.Phi">Phi (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.PHI">PHI (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Builder.phi">phi() (pyqir.Builder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.PointerType.pointee">pointee (pyqir.PointerType attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.PointerType">PointerType (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.FCmp.predicate">predicate (pyqir.FCmp attribute)</a>
+
+        <ul>
+          <li><a href="api/pyqir.html#pyqir.ICmp.predicate">(pyqir.ICmp attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/pyqir.html#pyqir.Linkage.PRIVATE">PRIVATE (pyqir.Linkage attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.PTR_TO_INT">PTR_TO_INT (pyqir.Opcode attribute)</a>
+</li>
+        <li>
+    pyqir
+
+        <ul>
+          <li><a href="api/pyqir.html#module-pyqir">module</a>
+</li>
+        </ul></li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="Q" class="genindex-section">
+  <h2>Q</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.qir_major_version">qir_major_version() (in module pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.qir_minor_version">qir_minor_version() (in module pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.qir_module">qir_module() (in module pyqir)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.qubit">qubit() (in module pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.qubit_id">qubit_id() (in module pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.qubit_type">qubit_type() (in module pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.SimpleModule.qubits">qubits (pyqir.SimpleModule property)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="R" class="genindex-section">
+  <h2>R</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.ModuleFlagBehavior.REQUIRE">REQUIRE (pyqir.ModuleFlagBehavior attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.required_num_qubits">required_num_qubits() (in module pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.required_num_results">required_num_results() (in module pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.BasicQisBuilder.reset">reset() (pyqir.BasicQisBuilder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.result">result() (in module pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.result_id">result_id() (in module pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.result_type">result_type() (in module pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.SimpleModule.results">results (pyqir.SimpleModule property)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Opcode.RESUME">RESUME (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.AttributeList.ret">ret (pyqir.AttributeList attribute)</a>
+
+        <ul>
+          <li><a href="api/pyqir.html#pyqir.FunctionType.ret">(pyqir.FunctionType attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.RET">RET (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Builder.ret">ret() (pyqir.Builder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.BasicQisBuilder.rx">rx() (pyqir.BasicQisBuilder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.BasicQisBuilder.ry">ry() (pyqir.BasicQisBuilder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.BasicQisBuilder.rz">rz() (pyqir.BasicQisBuilder method)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="S" class="genindex-section">
+  <h2>S</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.BasicQisBuilder.s">s() (pyqir.BasicQisBuilder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.BasicQisBuilder.s_adj">s_adj() (pyqir.BasicQisBuilder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.SDIV">SDIV (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.SELECT">SELECT (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.SEXT">SEXT (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.IntPredicate.SGE">SGE (pyqir.IntPredicate attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.IntPredicate.SGT">SGT (pyqir.IntPredicate attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.SHL">SHL (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Builder.shl">shl() (pyqir.Builder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.SHUFFLE_VECTOR">SHUFFLE_VECTOR (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.SI_TO_FP">SI_TO_FP (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.SimpleModule">SimpleModule (class in pyqir)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.IntPredicate.SLE">SLE (pyqir.IntPredicate attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.IntPredicate.SLT">SLT (pyqir.IntPredicate attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Module.source_filename">source_filename (pyqir.Module attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.SREM">SREM (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.STORE">STORE (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Attribute.string_kind">string_kind (pyqir.Attribute attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Attribute.string_value">string_value (pyqir.Attribute attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.StructType">StructType (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.SUB">SUB (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Builder.sub">sub() (pyqir.Builder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Instruction.successors">successors (pyqir.Instruction attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Switch">Switch (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.SWITCH">SWITCH (pyqir.Opcode attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="T" class="genindex-section">
+  <h2>T</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.BasicQisBuilder.t">t() (pyqir.BasicQisBuilder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.BasicQisBuilder.t_adj">t_adj() (pyqir.BasicQisBuilder method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.BasicBlock.terminator">terminator (pyqir.BasicBlock attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.FloatPredicate.TRUE">TRUE (pyqir.FloatPredicate attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Opcode.TRUNC">TRUNC (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Type">Type (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Function.type">type (pyqir.Function attribute)</a>
+
+        <ul>
+          <li><a href="api/pyqir.html#pyqir.Value.type">(pyqir.Value attribute)</a>
+</li>
+        </ul></li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="U" class="genindex-section">
+  <h2>U</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Opcode.UDIV">UDIV (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.FloatPredicate.UEQ">UEQ (pyqir.FloatPredicate attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.FloatPredicate.UGE">UGE (pyqir.FloatPredicate attribute)</a>
+
+        <ul>
+          <li><a href="api/pyqir.html#pyqir.IntPredicate.UGE">(pyqir.IntPredicate attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/pyqir.html#pyqir.FloatPredicate.UGT">UGT (pyqir.FloatPredicate attribute)</a>
+
+        <ul>
+          <li><a href="api/pyqir.html#pyqir.IntPredicate.UGT">(pyqir.IntPredicate attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.UI_TO_FP">UI_TO_FP (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.FloatPredicate.ULE">ULE (pyqir.FloatPredicate attribute)</a>
+
+        <ul>
+          <li><a href="api/pyqir.html#pyqir.IntPredicate.ULE">(pyqir.IntPredicate attribute)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.FloatPredicate.ULT">ULT (pyqir.FloatPredicate attribute)</a>
+
+        <ul>
+          <li><a href="api/pyqir.html#pyqir.IntPredicate.ULT">(pyqir.IntPredicate attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/pyqir.html#pyqir.FloatPredicate.UNE">UNE (pyqir.FloatPredicate attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.FloatPredicate.UNO">UNO (pyqir.FloatPredicate attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.UNREACHABLE">UNREACHABLE (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.UREM">UREM (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.USER_OP_1">USER_OP_1 (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Opcode.USER_OP_2">USER_OP_2 (pyqir.Opcode attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="V" class="genindex-section">
+  <h2>V</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Opcode.VA_ARG">VA_ARG (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Value">Value (class in pyqir)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.ConstantAsMetadata.value">value (pyqir.ConstantAsMetadata attribute)</a>
+
+        <ul>
+          <li><a href="api/pyqir.html#pyqir.FloatConstant.value">(pyqir.FloatConstant attribute)</a>
+</li>
+          <li><a href="api/pyqir.html#pyqir.IntConstant.value">(pyqir.IntConstant attribute)</a>
+</li>
+          <li><a href="api/pyqir.html#pyqir.MetadataString.value">(pyqir.MetadataString attribute)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Module.verify">verify() (pyqir.Module method)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Type.void">void() (pyqir.Type static method)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="W" class="genindex-section">
+  <h2>W</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.ModuleFlagBehavior.WARNING">WARNING (pyqir.ModuleFlagBehavior attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Linkage.WEAK_ANY">WEAK_ANY (pyqir.Linkage attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Linkage.WEAK_ODR">WEAK_ODR (pyqir.Linkage attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.IntType.width">width (pyqir.IntType attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="X" class="genindex-section">
+  <h2>X</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.BasicQisBuilder.x">x() (pyqir.BasicQisBuilder method)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Opcode.XOR">XOR (pyqir.Opcode attribute)</a>
+</li>
+        <li><a href="api/pyqir.html#pyqir.Builder.xor">xor() (pyqir.Builder method)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="Y" class="genindex-section">
+  <h2>Y</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.BasicQisBuilder.y">y() (pyqir.BasicQisBuilder method)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="Z" class="genindex-section">
+  <h2>Z</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.BasicQisBuilder.z">z() (pyqir.BasicQisBuilder method)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/pyqir.html#pyqir.Opcode.ZEXT">ZEXT (pyqir.Opcode attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
           
         </div>
-      </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper">
-<h1 class="logo"><a href="index.html">PyQIR</a></h1>
-
-
-
-
-
-
-
-
-<h3>Navigation</h3>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="getting-started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="api-reference/index.html">API Reference</a></li>
-<li class="toctree-l1"><a class="reference internal" href="development-guide/index.html">Development Guide</a></li>
-</ul>
-
-<div class="relations">
-<h3>Related Topics</h3>
-<ul>
-  <li><a href="index.html">Documentation overview</a><ul>
-  </ul></li>
-</ul>
-</div>
-<div id="searchbox" style="display: none" role="search">
-  <h3 id="searchlabel">Quick search</h3>
-    <div class="searchformwrapper">
-    <form class="search" action="search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
-      <input type="submit" value="Go" />
-    </form>
-    </div>
-</div>
-<script>$('#searchbox').show(0);</script>
-
-
-
-
-
-
-
-
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2021-2022 QIR Alliance
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
         </div>
-      </div>
-      <div class="clearer"></div>
+        
+      </footer>
     </div>
-    <div class="footer">
-      &copy;2021, QIR Alliance.
+    <aside class="toc-drawer no-toc">
       
-      |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.4.0</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
-    </div>
-
-    
-
-    
-  </body>
+      
+    </aside>
+  </div>
+</div><script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=b3ba4146"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="_static/scripts/furo.js?v=5fa4622c"></script>
+    </body>
 </html>
